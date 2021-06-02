@@ -102,6 +102,9 @@ endfunction
 
 nnoremap <c-n> :call OpenTerminal()<CR>
 
+" make autoread trigger when changing buffer
+au FocusGained,BufEnter * checktime
+
 set shiftwidth=2
 set tabstop=2
 set smartindent
