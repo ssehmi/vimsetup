@@ -80,15 +80,15 @@ set splitbelow
 " turn terminal to normal mode with escape
 tnoremap <Esc> <C-\><C-n>
 
-" use alt+hjkl to move between split/vsplit panels
-tnoremap <A-h> <C-\><C-n><C-w>h
-tnoremap <A-j> <C-\><C-n><C-w>j
-tnoremap <A-k> <C-\><C-n><C-w>k
-tnoremap <A-l> <C-\><C-n><C-w>l
-nnoremap <A-h> <C-w>h
-nnoremap <A-j> <C-w>j
-nnoremap <A-k> <C-w>k
-nnoremap <A-l> <C-w>l
+" Now make navigating between splits a little easier. Just use leader h,j,k,l
+nnoremap <Leader>j <C-W><C-J>
+nnoremap <Leader><Down> <C-W><C-J>
+nnoremap <Leader>k <C-W><C-K>
+nnoremap <Leader><Up> <C-W><C-K>
+nnoremap <Leader>l <C-W><C-L>
+nnoremap <Leader><Right> <C-W><C-L>
+nnoremap <Leader>h <C-W><C-H>
+nnoremap <Leader><Left> <C-W><C-H>
 
 " start terminal in insert mode
 au BufEnter * if &buftype == 'terminal' | :startinsert | endif
