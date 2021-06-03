@@ -17,3 +17,10 @@ Config file should be placed: ~/.config/nvim/init.vim
 ## COC config
 Config file should be placed ~/.config/nvim/coc-settings.json
 
+## Plug install
+After config files have been copied start neovim via:
+
+```
+nvim +PlugInstall
+```
+
