@@ -1,5 +1,6 @@
 # NeoVim
 Minimal neo vim setup for Front End development.
+
 Features:
 * React
 * Typescript
