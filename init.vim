@@ -167,3 +167,5 @@ set tabstop=2
 set smartindent
 set expandtab
 set number
+set foldmethod=syntax
+set nofoldenable
