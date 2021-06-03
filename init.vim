@@ -60,6 +60,8 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 " Toggle
 nnoremap <leader>ut  :UndotreeToggle<cr>
 nnoremap <leader>nt  :NERDTreeToggle<cr>
+" refresh nerdtree file list
+nmap <Leader>r :NERDTreeFocus<cr> \| R \| <c-w><c-p>
 
 
 nnoremap <C-p> :FZF<CR>
