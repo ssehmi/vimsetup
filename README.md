@@ -1,4 +1,10 @@
 # NeoVim
+Minimal neo vim setup for Front End development.
+Features:
+* React
+* Typescript
+* Eslint
+* Prettier
 
 ## Install neovim
 After installation of nvim, copy the below config files in the directories listed.
