@@ -6,7 +6,7 @@ call plug#begin("~/.vim/plugged")
   Plug 'tpope/vim-surround'
   Plug 'tpope/vim-sensible'
   Plug 'tpope/vim-commentary'
-  Plug 'Townk/vim-autoclose'
+  Plug 'jiangmiao/auto-pairs'
 
   " Language Client
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -143,6 +143,8 @@ endif
 
 " show documentation in preview window
 nnoremap <silent> K :call CocAction('doHover')<CR>
+
+nmap <leader>do <Plug>(coc-codeaction)
 
 " Symbol renaming.
 nmap <leader>rn <Plug>(coc-rename)
