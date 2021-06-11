@@ -38,6 +38,8 @@ call plug#begin("~/.vim/plugged")
   Plug 'junegunn/fzf.vim'
 call plug#end()
 
+let mapleader=","
+
 " Enable theming support
 if (has("termguicolors"))
  set termguicolors
