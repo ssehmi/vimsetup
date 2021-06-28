@@ -171,6 +171,12 @@ set shiftwidth=2
 set tabstop=2
 set smartindent
 set expandtab
-set number
 set foldmethod=syntax
 set nofoldenable
+
+" Numbers
+set number
+set numberwidth=5
+
+" Display extra whitespace
+set list listchars=tab:»·,trail:·,nbsp:·
