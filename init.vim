@@ -180,3 +180,6 @@ set numberwidth=5
 
 " Display extra whitespace
 set list listchars=tab:»·,trail:·,nbsp:·
+
+" :BufOnly - closes all buffers apart from current one
+command! BufOnly execute '%bdelete|edit #|normal `"'
